@@ -28,6 +28,8 @@
 
 My background started in **e-commerce, acquisition and digital growth**. I spent years working across a European, multi-market environment — SEO/SEA, marketplaces, analytics, tracking, conversion, catalogue operations and web platforms — before increasingly moving from *using* tools to **designing and building the systems I wanted to exist**.
 
+Previously, I led digital marketing across **~30 web properties spanning France, Portugal and Italy**, working across acquisition, commerce, analytics and day-to-day digital operations.
+
 Today I work where **product thinking, automation, AI and software architecture** overlap.
 
 I care less about adding technology for its own sake than about making a difficult workflow **simpler, observable, maintainable and genuinely useful**.
@@ -172,7 +174,7 @@ That mix still shapes how I build: **business problem first, architecture second
 ## GitHub activity
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niakw&theme=github_dark" width="94%" alt="GitHub profile activity" />
+  <img src="https://raw.githubusercontent.com/niakw/niakw/output/profile-metrics.svg" width="94%" alt="Auto-generated public GitHub metrics" />
   <br /><br />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niakw/niakw/output/github-contribution-grid-snake-dark.svg" />
