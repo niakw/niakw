@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile visuals
 
 on:
   push:
@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: profile-snake-${{ github.ref }}
+  group: profile-visuals-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -28,6 +28,83 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Generate public profile metrics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: |
+          python - <<'PY'
+          import collections
+          import datetime as dt
+          import html
+          import json
+          import os
+          import pathlib
+          import urllib.request
+
+          owner = os.environ["PROFILE_OWNER"]
+          token = os.environ.get("GH_TOKEN", "")
+          url = f"https://api.github.com/users/{owner}/repos?per_page=100&type=owner&sort=updated"
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "User-Agent": "profile-metrics-workflow",
+          }
+          if token:
+              headers["Authorization"] = f"Bearer {token}"
+
+          request = urllib.request.Request(url, headers=headers)
+          with urllib.request.urlopen(request, timeout=20) as response:
+              repos = json.load(response)
+
+          projects = [r for r in repos if not r.get("fork") and r.get("name") != owner]
+          stars = sum(int(r.get("stargazers_count", 0)) for r in projects)
+          forks = sum(int(r.get("forks_count", 0)) for r in projects)
+          langs = collections.Counter(r.get("language") for r in projects if r.get("language"))
+          top_langs = " · ".join(name for name, _ in langs.most_common(3)) or "—"
+
+          pushed = [r.get("pushed_at") for r in projects if r.get("pushed_at")]
+          if pushed:
+              latest = max(dt.datetime.fromisoformat(v.replace("Z", "+00:00")) for v in pushed)
+              latest_label = latest.strftime("%d %b %Y")
+          else:
+              latest_label = "—"
+
+          values = [
+              (str(len(projects)), "PUBLIC PROJECTS"),
+              (str(stars), "TOTAL STARS"),
+              (str(forks), "TOTAL FORKS"),
+              (html.escape(top_langs), "PRIMARY LANGUAGES"),
+              (html.escape(latest_label), "LAST PUBLIC PUSH"),
+          ]
+
+          positions = [96, 264, 432, 620, 790]
+          widths = [140, 140, 140, 170, 170]
+          blocks = []
+          for (value, label), x, width in zip(values, positions, widths):
+              size = 30 if len(value) <= 12 else 20
+              blocks.append(f'''
+                <g transform="translate({x} 0)">
+                  <text x="0" y="83" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="{size}" font-weight="760">{value}</text>
+                  <text x="0" y="111" fill="#64748B" font-family="ui-monospace,monospace" font-size="11" letter-spacing="1.3">{label}</text>
+                  <rect x="0" y="130" width="{width}" height="2" rx="1" fill="url(#accent)" opacity=".7"/>
+                </g>''')
+
+          svg = f'''<svg width="880" height="170" viewBox="0 0 880 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+            <title id="title">Public GitHub metrics for {html.escape(owner)}</title>
+            <desc id="desc">Automatically generated from public GitHub repository data.</desc>
+            <defs>
+              <linearGradient id="bg" x1="0" y1="0" x2="880" y2="170"><stop stop-color="#07111B"/><stop offset=".52" stop-color="#0D1320"/><stop offset="1" stop-color="#151022"/></linearGradient>
+              <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38BDF8"/><stop offset=".52" stop-color="#A78BFA"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+            </defs>
+            <rect x="1" y="1" width="878" height="168" rx="20" fill="url(#bg)" stroke="#263244"/>
+            <text x="38" y="38" fill="#94A3B8" font-family="ui-monospace,monospace" font-size="12" letter-spacing="2.3">PUBLIC GITHUB SNAPSHOT · AUTO-GENERATED</text>
+            {''.join(blocks)}
+          </svg>'''
+
+          pathlib.Path("dist").mkdir(parents=True, exist_ok=True)
+          pathlib.Path("dist/profile-metrics.svg").write_text(svg, encoding="utf-8")
+          PY
 
       - name: Publish generated assets
         uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
