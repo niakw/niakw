@@ -128,6 +128,12 @@ Ce mélange continue de guider ma manière de construire : **problème métier d
 
 <br />
 
+<div align="center">
+  <img src="assets/build-loop.svg" width="100%" alt="Comprendre, modéliser, construire, valider, observer, réparer" />
+</div>
+
+<br />
+
 ## Toolbox
 
 <div align="center">
