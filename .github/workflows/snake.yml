@@ -78,8 +78,8 @@ jobs:
               (html.escape(latest_label), "LAST PUBLIC PUSH"),
           ]
 
-          positions = [96, 264, 432, 620, 790]
-          widths = [140, 140, 140, 170, 170]
+          positions = [68, 250, 430, 620, 820]
+          widths = [145, 145, 145, 165, 165]
           blocks = []
           for (value, label), x, width in zip(values, positions, widths):
               size = 30 if len(value) <= 12 else 20
@@ -90,14 +90,14 @@ jobs:
                   <rect x="0" y="130" width="{width}" height="2" rx="1" fill="url(#accent)" opacity=".7"/>
                 </g>''')
 
-          svg = f'''<svg width="880" height="170" viewBox="0 0 880 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+          svg = f'''<svg width="1000" height="170" viewBox="0 0 1000 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
             <title id="title">Public GitHub metrics for {html.escape(owner)}</title>
             <desc id="desc">Automatically generated from public GitHub repository data.</desc>
             <defs>
-              <linearGradient id="bg" x1="0" y1="0" x2="880" y2="170"><stop stop-color="#07111B"/><stop offset=".52" stop-color="#0D1320"/><stop offset="1" stop-color="#151022"/></linearGradient>
+              <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="170"><stop stop-color="#07111B"/><stop offset=".52" stop-color="#0D1320"/><stop offset="1" stop-color="#151022"/></linearGradient>
               <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38BDF8"/><stop offset=".52" stop-color="#A78BFA"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
             </defs>
-            <rect x="1" y="1" width="878" height="168" rx="20" fill="url(#bg)" stroke="#263244"/>
+            <rect x="1" y="1" width="998" height="168" rx="20" fill="url(#bg)" stroke="#263244"/>
             <text x="38" y="38" fill="#94A3B8" font-family="ui-monospace,monospace" font-size="12" letter-spacing="2.3">PUBLIC GITHUB SNAPSHOT · AUTO-GENERATED</text>
             {''.join(blocks)}
           </svg>'''
