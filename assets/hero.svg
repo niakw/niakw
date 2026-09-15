@@ -1,4 +1,20 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NIAK — product, systems and automation</title>
+  <desc id="desc">A dark technical profile banner with subtle animated accents and a terminal-style panel.</desc>
+  <style>
+    .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin: center; }
+    .pulse2 { animation: pulse 3.2s ease-in-out .8s infinite; transform-origin: center; }
+    .blink { animation: blink 1.1s steps(2, start) infinite; }
+    .dash { stroke-dasharray: 18 14; animation: dash 5.5s linear infinite; }
+    .bar { animation: bar 4s ease-in-out infinite; transform-origin: 78px 237px; }
+    @keyframes pulse { 0%,100% { opacity:.45; } 50% { opacity:1; } }
+    @keyframes blink { 50% { opacity:0; } }
+    @keyframes dash { to { stroke-dashoffset:-64; } }
+    @keyframes bar { 0%,100% { transform:scaleX(.92); opacity:.8; } 50% { transform:scaleX(1); opacity:1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse,.pulse2,.blink,.dash,.bar { animation:none; }
+    }
+  </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
       <stop stop-color="#070B14"/>
@@ -33,16 +49,16 @@
   <circle cx="1040" cy="310" r="130" fill="#8B5CF6" fill-opacity="0.06" filter="url(#blur)"/>
 
   <g opacity="0.68">
-    <path d="M930 75H1070" stroke="#38BDF8" stroke-opacity="0.35"/>
-    <path d="M930 105H1110" stroke="#8B5CF6" stroke-opacity="0.22"/>
-    <path d="M930 135H1040" stroke="#22C55E" stroke-opacity="0.25"/>
-    <circle cx="1120" cy="75" r="4" fill="#38BDF8"/>
-    <circle cx="1060" cy="135" r="4" fill="#22C55E"/>
+    <path class="dash" d="M930 75H1070" stroke="#38BDF8" stroke-opacity="0.35"/>
+    <path class="dash" d="M930 105H1110" stroke="#8B5CF6" stroke-opacity="0.22"/>
+    <path class="dash" d="M930 135H1040" stroke="#22C55E" stroke-opacity="0.25"/>
+    <circle class="pulse" cx="1120" cy="75" r="4" fill="#38BDF8"/>
+    <circle class="pulse2" cx="1060" cy="135" r="4" fill="#22C55E"/>
   </g>
 
   <text x="78" y="105" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="19" letter-spacing="3">PRODUCT × SYSTEMS × AUTOMATION</text>
   <text x="74" y="205" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="104" font-weight="800" letter-spacing="-7">NIAK</text>
-  <rect x="78" y="235" width="530" height="4" rx="2" fill="url(#accent)"/>
+  <rect class="bar" x="78" y="235" width="530" height="4" rx="2" fill="url(#accent)"/>
   <text x="78" y="294" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="500">Digital builder from strategy to shipping.</text>
   <text x="78" y="335" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18">E-commerce · AI · Automation · UX · Open Source</text>
 
@@ -54,5 +70,6 @@
     <text x="22" y="69" fill="#64748B" font-family="ui-monospace, monospace" font-size="14">$ build --useful</text>
     <text x="22" y="95" fill="#E2E8F0" font-family="ui-monospace, monospace" font-size="14">→ simplify complexity</text>
     <text x="22" y="119" fill="#A78BFA" font-family="ui-monospace, monospace" font-size="14">✓ ship &amp; iterate</text>
+    <rect class="blink" x="156" y="106" width="8" height="15" rx="1" fill="#A78BFA" fill-opacity=".85"/>
   </g>
 </svg>
