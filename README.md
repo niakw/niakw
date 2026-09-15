@@ -3,7 +3,7 @@
 
   <br />
 
-  <strong>Entrepreneur E-commerce & Digital</strong> · ex-Head of Digital Marketing Europe · France
+  <strong>Engineering × Product × Digital Growth</strong> · Entrepreneur · ex-Head of Digital Marketing Europe · France
   <br /><br />
 
   <strong>English</strong> · <a href="README.fr.md">Français</a>
@@ -16,7 +16,7 @@
   <br /><br />
 
   <a href="#selected-work">Work</a> ·
-  <a href="#from-digital-growth-to-product-engineering">Journey</a> ·
+  <a href="#engineering-roots-digital-scale-product-systems">Journey</a> ·
   <a href="#principles-i-keep-coming-back-to">Principles</a> ·
   <a href="#toolbox">Toolbox</a> ·
   <a href="#github-activity">Activity</a>
@@ -26,18 +26,16 @@
 
 ## I build useful systems out of messy problems.
 
-My background started in **e-commerce, acquisition and digital growth**. I spent years working across a European, multi-market environment — SEO/SEA, marketplaces, analytics, tracking, conversion, catalogue operations and web platforms — before increasingly moving from *using* tools to **designing and building the systems I wanted to exist**.
+My foundation is **engineering**. Software, electronics and systems projects came before my digital marketing career, and that technical mindset stayed with me as I moved into web platforms, data, e-commerce and growth.
 
-Previously, I led digital marketing across **~30 web properties spanning France, Portugal and Italy**, working across acquisition, commerce, analytics and day-to-day digital operations.
+I later led digital marketing across **~30 web properties spanning France, Portugal and Italy**, working across SEO/SEA, marketplaces, analytics, tracking, conversion, commerce and day-to-day digital operations.
 
-Today I work where **product thinking, automation, AI and software architecture** overlap.
-
-I care less about adding technology for its own sake than about making a difficult workflow **simpler, observable, maintainable and genuinely useful**.
+Today I build products where **software architecture, AI, automation, UX and business performance** meet. I care less about adding technology for its own sake than about making difficult workflows simpler, observable, maintainable and genuinely useful.
 
 <br />
 
 <div align="center">
-  <img src="assets/journey.svg" width="100%" alt="Growth to commerce to automation to systems" />
+  <img src="assets/journey.svg" width="100%" alt="Engineering to digital systems to growth and commerce to product and AI" />
 </div>
 
 <br />
@@ -46,16 +44,16 @@ I care less about adding technology for its own sake than about making a difficu
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ Product & growth
+### ⚙️ Engineering & systems
 
-I think in terms of users, acquisition, conversion, operations and business constraints before implementation details.
+I think in interfaces, constraints, data flows, failure modes and maintainability — whether the system is software, automation or a business workflow.
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 Systems
+### ⚡ Product & growth
 
-I like architecture that keeps complex projects testable, observable and repairable as they grow.
+I connect the technical layer to users, acquisition, conversion, operations and commercial constraints rather than treating them as separate worlds.
 
 </td>
 </tr>
@@ -64,7 +62,7 @@ I like architecture that keeps complex projects testable, observable and repaira
 
 ### 🤖 AI & automation
 
-I use AI as a product capability — especially for reasoning, routing and assisted workflows — while keeping important decisions reviewable.
+I use AI as a product capability — for reasoning, routing and assisted workflows — while keeping important decisions reviewable.
 
 </td>
 <td width="50%" valign="top">
@@ -98,7 +96,7 @@ I prefer tools that are inspectable and reproducible, with clear boundaries betw
 
 ### [NiakVIO](https://github.com/niakw/NiakVIO)
 
-A community engine for Nuvio providers built around **structured provider knowledge, compatibility evidence, repair, native-device Labs and safe publication**. The interesting problem is not merely aggregation: it is keeping a moving ecosystem maintainable across TV, mobile and desktop clients.
+A community engine for Nuvio providers built around **structured provider knowledge, compatibility evidence, repair, native-device Labs and safe publication**. The challenge is keeping a moving ecosystem testable and maintainable across TV, mobile and desktop clients.
 
 [Repository](https://github.com/niakw/NiakVIO) · [Project page](https://projects.eittyweb.fr/en/niakvio/)
 
@@ -106,7 +104,7 @@ A community engine for Nuvio providers built around **structured provider knowle
 
 ### [NiakGPT](https://github.com/niakw/NiakGPT)
 
-A **local-first power workspace for ChatGPT** focused on Projects, navigation, continuity and long-running work. It is designed to add capability without replacing the product around it, with a strong bias toward native-feeling UX and explicit ownership boundaries.
+A **local-first power workspace for ChatGPT** focused on Projects, navigation, continuity and long-running work, with a strong bias toward native-feeling UX and explicit architectural ownership.
 
 [Repository](https://github.com/niakw/NiakGPT) · [Project page](https://projects.eittyweb.fr/en/niakgpt/)
 
@@ -114,13 +112,13 @@ A **local-first power workspace for ChatGPT** focused on Projects, navigation, c
 
 <br />
 
-## From digital growth to product engineering
+## Engineering roots, digital scale, product systems
 
-My technical work grew out of solving real operational problems rather than starting with a framework.
+The technical side did not arrive after marketing — it **predates it**. My path started with engineering studies and technical projects, then expanded through IT and web work into digital marketing and e-commerce leadership.
 
-I have worked across **SEO, SEA, marketplaces, analytics, tracking, marketing automation, PrestaShop and Shopify**, then progressively deeper into APIs, browser tooling, CI/CD, testing, cross-platform compatibility and AI-assisted systems.
+That hybrid background is why I can move naturally from **SEO/SEA, marketplaces, analytics and conversion** to **APIs, databases, browser tooling, CI/CD, testing, automation and cross-platform architecture** without treating them as unrelated disciplines.
 
-That mix still shapes how I build: **business problem first, architecture second, technology third**.
+My working rule is simple: **understand the real problem, design the system deliberately, then choose the technology that fits**.
 
 <br />
 
@@ -186,7 +184,7 @@ That mix still shapes how I build: **business problem first, architecture second
 <br />
 
 <div align="center">
-  <sub>Open source, product experiments and tools built from real-world friction.</sub>
+  <sub>Open source, product experiments and systems built from real-world constraints.</sub>
   <br /><br />
   <img src="assets/footer.svg" width="100%" alt="Build things worth maintaining." />
 </div>
