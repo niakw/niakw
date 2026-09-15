@@ -3,7 +3,7 @@
 
   <br />
 
-  <strong>Entrepreneur E-commerce & Digital</strong> · ex-Head of Digital Marketing Europe · France
+  <strong>Ingénierie × Produit × Croissance digitale</strong> · Entrepreneur · ex-Head of Digital Marketing Europe · France
   <br /><br />
 
   <strong>Français</strong> · <a href="README.md">English</a>
@@ -12,24 +12,30 @@
   <a href="https://github.com/niakw/NiakVIO"><img src="https://img.shields.io/github/stars/niakw/NiakVIO?style=for-the-badge&logo=github&label=NiakVIO&color=0ea5e9&labelColor=0d1117" alt="Étoiles NiakVIO" /></a>
   <a href="https://github.com/niakw/NiakGPT"><img src="https://img.shields.io/github/stars/niakw/NiakGPT?style=for-the-badge&logo=github&label=NiakGPT&color=8b5cf6&labelColor=0d1117" alt="Étoiles NiakGPT" /></a>
   <img src="https://img.shields.io/badge/open_source-builder-22c55e?style=for-the-badge&labelColor=0d1117" alt="Open source builder" />
+
+  <br /><br />
+
+  <a href="#projets-sélectionnés">Projets</a> ·
+  <a href="#racines-ingénierie-échelle-digitale-systèmes-produit">Parcours</a> ·
+  <a href="#principes-auxquels-je-reviens-souvent">Principes</a> ·
+  <a href="#toolbox">Toolbox</a> ·
+  <a href="#activité-github">Activité</a>
 </div>
 
 <br />
 
 ## Je transforme des problèmes complexes en systèmes utiles.
 
-Mon parcours a commencé dans **l'e-commerce, l'acquisition et la croissance digitale**. Pendant plusieurs années, j'ai travaillé dans un environnement européen et multi-marchés : SEO/SEA, marketplaces, analytics, tracking, conversion, opérations catalogue et plateformes web — avant de passer progressivement de l'utilisation d'outils à la **conception et la construction des systèmes que j'aurais voulu avoir**.
+Ma base est **l'ingénierie**. Les projets logiciels, électroniques et systèmes précèdent mon parcours en marketing digital, et cette manière de penser est restée centrale lorsque je suis allé vers les plateformes web, la donnée, l'e-commerce et la croissance.
 
-J'ai auparavant piloté le marketing digital sur **~30 propriétés web réparties entre la France, le Portugal et l'Italie**, avec des responsabilités couvrant l'acquisition, le commerce, l'analytics et les opérations digitales quotidiennes.
+J'ai ensuite piloté le marketing digital sur **~30 propriétés web réparties entre la France, le Portugal et l'Italie**, avec des responsabilités couvrant SEO/SEA, marketplaces, analytics, tracking, conversion, commerce et opérations digitales.
 
-Aujourd'hui, je travaille à l'intersection du **produit, de l'automatisation, de l'IA et de l'architecture logicielle**.
-
-La technologie n'est pas le but : je cherche surtout à rendre un workflow difficile **plus simple, observable, maintenable et réellement utile**.
+Aujourd'hui, je construis des produits à l'intersection de **l'architecture logicielle, de l'IA, de l'automatisation, de l'UX et de la performance business**. La technologie n'est pas une fin en soi : l'objectif est de rendre les workflows difficiles plus simples, observables, maintenables et réellement utiles.
 
 <br />
 
 <div align="center">
-  <img src="assets/journey.svg" width="100%" alt="Growth vers commerce vers automatisation vers systèmes" />
+  <img src="assets/journey.svg" width="100%" alt="Ingénierie vers systèmes digitaux vers croissance et commerce vers produit et IA" />
 </div>
 
 <br />
@@ -38,16 +44,16 @@ La technologie n'est pas le but : je cherche surtout à rendre un workflow diffi
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ Produit & croissance
+### ⚙️ Ingénierie & systèmes
 
-Je pense d'abord utilisateurs, acquisition, conversion, opérations et contraintes métier, avant de penser implémentation.
+Je pense interfaces, contraintes, flux de données, modes de panne et maintenabilité — qu'il s'agisse de logiciel, d'automatisation ou d'un workflow métier.
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 Systèmes
+### ⚡ Produit & croissance
 
-J'aime les architectures qui permettent à un projet complexe de rester testable, observable et réparable en grandissant.
+Je relie la couche technique aux utilisateurs, à l'acquisition, à la conversion, aux opérations et aux contraintes commerciales plutôt que de séparer ces mondes.
 
 </td>
 </tr>
@@ -56,7 +62,7 @@ J'aime les architectures qui permettent à un projet complexe de rester testable
 
 ### 🤖 IA & automatisation
 
-J'utilise l'IA comme une capacité intégrée au produit — notamment pour le raisonnement, le routage et les workflows assistés — tout en gardant les décisions importantes vérifiables.
+J'utilise l'IA comme une capacité intégrée au produit — pour le raisonnement, le routage et les workflows assistés — tout en gardant les décisions importantes vérifiables.
 
 </td>
 <td width="50%" valign="top">
@@ -90,7 +96,7 @@ Je préfère les outils inspectables et reproductibles, avec une séparation cla
 
 ### [NiakVIO](https://github.com/niakw/NiakVIO)
 
-Un moteur communautaire pour les providers Nuvio construit autour de **connaissances structurées, preuves de compatibilité, réparation, Labs natifs et publication sûre**. Le vrai problème n'est pas simplement l'agrégation : c'est de garder un écosystème mouvant maintenable sur TV, mobile et desktop.
+Un moteur communautaire pour les providers Nuvio construit autour de **connaissances structurées, preuves de compatibilité, réparation, Labs natifs et publication sûre**. Le défi est de garder un écosystème mouvant testable et maintenable sur TV, mobile et desktop.
 
 [Repository](https://github.com/niakw/NiakVIO) · [Project page](https://projects.eittyweb.fr/en/niakvio/)
 
@@ -98,7 +104,7 @@ Un moteur communautaire pour les providers Nuvio construit autour de **connaissa
 
 ### [NiakGPT](https://github.com/niakw/NiakGPT)
 
-Un **power workspace local-first pour ChatGPT**, centré sur Projects, la navigation, la continuité et les travaux longs. L'objectif est d'ajouter des capacités sans remplacer le produit autour, avec une forte priorité donnée à une UX native et à des responsabilités architecturales explicites.
+Un **power workspace local-first pour ChatGPT**, centré sur Projects, la navigation, la continuité et les travaux longs, avec une forte priorité donnée à une UX native et à des responsabilités architecturales explicites.
 
 [Repository](https://github.com/niakw/NiakGPT) · [Project page](https://projects.eittyweb.fr/en/niakgpt/)
 
@@ -106,13 +112,13 @@ Un **power workspace local-first pour ChatGPT**, centré sur Projects, la naviga
 
 <br />
 
-## Du marketing digital à l'ingénierie produit
+## Racines ingénierie, échelle digitale, systèmes produit
 
-Mon travail technique est venu de problèmes opérationnels réels plutôt que d'un framework choisi à l'avance.
+La partie technique n'est pas arrivée après le marketing : elle **le précède**. Mon parcours a commencé par un cursus ingénieur et des projets techniques, puis s'est élargi par des missions informatiques et web vers le marketing digital et la responsabilité e-commerce.
 
-J'ai travaillé sur **SEO, SEA, marketplaces, analytics, tracking, marketing automation, PrestaShop et Shopify**, puis de plus en plus profondément sur les APIs, outils navigateur, CI/CD, tests, compatibilité multi-plateformes et systèmes assistés par IA.
+C'est ce parcours hybride qui me permet de passer naturellement de **SEO/SEA, marketplaces, analytics et conversion** à **APIs, bases de données, outils navigateur, CI/CD, tests, automatisation et architecture multi-plateformes** sans considérer ces disciplines comme des mondes séparés.
 
-Ce mélange continue de guider ma manière de construire : **problème métier d'abord, architecture ensuite, technologie en troisième**.
+Ma règle de travail est simple : **comprendre le vrai problème, concevoir le système consciemment, puis choisir la technologie adaptée**.
 
 <br />
 
@@ -178,7 +184,7 @@ Ce mélange continue de guider ma manière de construire : **problème métier d
 <br />
 
 <div align="center">
-  <sub>Open source, expérimentations produit et outils construits à partir de problèmes réels.</sub>
+  <sub>Open source, expérimentations produit et systèmes construits à partir de contraintes réelles.</sub>
   <br /><br />
   <img src="assets/footer.svg" width="100%" alt="Build things worth maintaining." />
 </div>
