@@ -1,20 +1,27 @@
-<svg width="560" height="255" viewBox="0 0 560 255" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="560" height="255" viewBox="0 0 560 255" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">NiakVIO</title><desc id="desc">NiakVIO project card.</desc>
 <defs>
-  <linearGradient id="b" x1="0" y1="0" x2="560" y2="255"><stop stop-color="#07111B"/><stop offset="1" stop-color="#0B1725"/></linearGradient>
-  <linearGradient id="a" x1="36" y1="28" x2="500" y2="220"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
-  <pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#7DD3FC" stroke-opacity=".055"/></pattern>
+  <linearGradient id="b" x1="0" y1="0" x2="560" y2="255"><stop stop-color="#061327"/><stop offset=".55" stop-color="#07101C"/><stop offset="1" stop-color="#10091A"/></linearGradient>
+  <linearGradient id="a" x1="36" y1="28" x2="500" y2="220"><stop stop-color="#2DF1FF"/><stop offset=".55" stop-color="#7044FF"/><stop offset="1" stop-color="#FF2CCE"/></linearGradient>
+  <linearGradient id="mark" x1="26" y1="25" x2="70" y2="72"><stop stop-color="#2DF1FF"/><stop offset=".55" stop-color="#087CFF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+  <pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#7DD3FC" stroke-opacity=".045"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect x="1" y="1" width="558" height="253" rx="22" fill="url(#b)" stroke="#1E3A4D"/>
+<rect x="1" y="1" width="558" height="253" rx="22" fill="url(#b)" stroke="#1C3150"/>
 <rect x="1" y="1" width="558" height="253" rx="22" fill="url(#g)"/>
-<circle cx="49" cy="47" r="18" fill="#0EA5E9" fill-opacity=".15" stroke="#38BDF8" stroke-opacity=".55"/>
-<path d="M41 47h16M49 39v16" stroke="#7DD3FC" stroke-width="2" stroke-linecap="round"/>
-<text x="81" y="55" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="29" font-weight="750">NiakVIO</text>
+<g transform="translate(24 22)" filter="url(#glow)">
+  <ellipse cx="27" cy="25" rx="23" ry="13" fill="none" stroke="url(#a)" stroke-width="2.5" transform="rotate(-14 27 25)" opacity=".9"/>
+  <path d="M10 42V10h7l20 24V10h9v34h-8L18 20v22z" fill="url(#mark)"/>
+  <path d="M24 20c0-3 3-5 6-3l13 8c3 2 3 5 0 7l-13 8c-3 2-6 0-6-3z" fill="#06101D" stroke="#A5F3FC" stroke-width="1"/>
+  <path d="M29 23l9 5-9 5z" fill="#F0ABFC"/>
+</g>
+<text x="86" y="55" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="29" font-weight="750">NiakVIO</text>
 <text x="36" y="97" fill="#7DD3FC" font-family="ui-monospace,monospace" font-size="14" letter-spacing="1.2">PROVIDER ENGINE · NATIVE LABS</text>
 <text x="36" y="134" fill="#CBD5E1" font-family="Inter,system-ui,sans-serif" font-size="16">A maintainable provider layer built around</text>
 <text x="36" y="158" fill="#CBD5E1" font-family="Inter,system-ui,sans-serif" font-size="16">compatibility evidence, repair and safe publication.</text>
 <rect x="36" y="190" width="105" height="28" rx="14" fill="#0EA5E9" fill-opacity=".12" stroke="#38BDF8" stroke-opacity=".28"/><text x="54" y="209" fill="#7DD3FC" font-family="ui-monospace,monospace" font-size="12">AUTOMATION</text>
-<rect x="151" y="190" width="103" height="28" rx="14" fill="#22C55E" fill-opacity=".10" stroke="#4ADE80" stroke-opacity=".25"/><text x="169" y="209" fill="#86EFAC" font-family="ui-monospace,monospace" font-size="12">TESTING</text>
+<rect x="151" y="190" width="103" height="28" rx="14" fill="#7044FF" fill-opacity=".10" stroke="#A78BFA" stroke-opacity=".25"/><text x="169" y="209" fill="#C4B5FD" font-family="ui-monospace,monospace" font-size="12">TESTING</text>
 <rect x="264" y="190" width="126" height="28" rx="14" fill="#64748B" fill-opacity=".10" stroke="#94A3B8" stroke-opacity=".2"/><text x="283" y="209" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="12">OPEN SOURCE</text>
 <path d="M426 43h84" stroke="url(#a)" stroke-width="3" stroke-linecap="round"/>
-<circle cx="518" cy="43" r="4" fill="#22C55E"/>
+<circle cx="518" cy="43" r="4" fill="#FF2CCE"/>
 </svg>
