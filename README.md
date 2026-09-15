@@ -159,6 +159,12 @@ That mix still shapes how I build: **business problem first, architecture second
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niakw&theme=github_dark" width="94%" alt="GitHub profile activity" />
+  <br /><br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niakw/niakw/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/niakw/niakw/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated contribution graph" src="https://raw.githubusercontent.com/niakw/niakw/output/github-contribution-grid-snake-dark.svg" width="94%" />
+  </picture>
 </div>
 
 <br />
