@@ -26,9 +26,9 @@
 
 ## Je transforme des problèmes complexes en systèmes utiles.
 
-Ma base est **l'ingénierie**. Les projets logiciels, électroniques et systèmes précèdent mon parcours en marketing digital, et cette manière de penser est restée centrale lorsque je suis allé vers les plateformes web, la donnée, l'e-commerce et la croissance.
+Je suis **ingénieur informatique de formation**, avec plus de dix ans de parcours entre logiciel, web, e-commerce et systèmes digitaux. Avant de piloter la croissance et le commerce, je développais déjà des applications métiers, des plateformes web et des automatisations de processus.
 
-J'ai ensuite piloté le marketing digital sur **~30 propriétés web réparties entre la France, le Portugal et l'Italie**, avec des responsabilités couvrant SEO/SEA, marketplaces, analytics, tracking, conversion, commerce et opérations digitales.
+J'ai ensuite piloté le marketing digital et l'e-commerce sur **plus de 20 propriétés web dans quatre marchés européens**, avec des responsabilités couvrant acquisition, marketplaces, analytics, tracking, conversion et opérations digitales.
 
 Aujourd'hui, je construis des produits à l'intersection de **l'architecture logicielle, de l'IA, de l'automatisation, de l'UX et de la performance business**. La technologie n'est pas une fin en soi : l'objectif est de rendre les workflows difficiles plus simples, observables, maintenables et réellement utiles.
 
@@ -114,7 +114,7 @@ Un **power workspace local-first pour ChatGPT**, centré sur Projects, la naviga
 
 ## Racines ingénierie, échelle digitale, systèmes produit
 
-La partie technique n'est pas arrivée après le marketing : elle **le précède**. Mon parcours a commencé par un cursus ingénieur et des projets techniques, puis s'est élargi par des missions informatiques et web vers le marketing digital et la responsabilité e-commerce.
+La partie technique n'est pas arrivée après le marketing : elle **le précède**. Mon parcours couvre le développement d'applications, les systèmes d'information, les plateformes web et les projets numériques avant de s'élargir vers l'e-commerce européen et le pilotage de la croissance.
 
 C'est ce parcours hybride qui me permet de passer naturellement de **SEO/SEA, marketplaces, analytics et conversion** à **APIs, bases de données, outils navigateur, CI/CD, tests, automatisation et architecture multi-plateformes** sans considérer ces disciplines comme des mondes séparés.
 
@@ -148,9 +148,13 @@ Ma règle de travail est simple : **comprendre le vrai problème, concevoir le s
 
 <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript" />
 <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178c6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/PHP-0d1117?style=for-the-badge&logo=php&logoColor=777bb4" alt="PHP" />
 <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776ab" alt="Python" />
 <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=node.js&logoColor=5fa04e" alt="Node.js" />
 <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61dafb" alt="React" />
+<img src="https://img.shields.io/badge/Symfony-0d1117?style=for-the-badge&logo=symfony&logoColor=ffffff" alt="Symfony" />
+<img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169e1" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ed" alt="Docker" />
 <img src="https://img.shields.io/badge/GitHub_Actions-0d1117?style=for-the-badge&logo=githubactions&logoColor=2088ff" alt="GitHub Actions" />
 <img src="https://img.shields.io/badge/Cloudflare-0d1117?style=for-the-badge&logo=cloudflare&logoColor=f38020" alt="Cloudflare" />
 <img src="https://img.shields.io/badge/Browser_Extensions-0d1117?style=for-the-badge&logo=googlechrome&logoColor=4285f4" alt="Extensions navigateur" />
