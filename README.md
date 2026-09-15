@@ -26,9 +26,9 @@
 
 ## I build useful systems out of messy problems.
 
-My foundation is **engineering**. Software, electronics and systems projects came before my digital marketing career, and that technical mindset stayed with me as I moved into web platforms, data, e-commerce and growth.
+I'm a **computer engineer by training** with more than a decade across software, web, e-commerce and digital systems. Before leading growth and commerce initiatives, I was already building business applications, web platforms and process automation.
 
-I later led digital marketing across **~30 web properties spanning France, Portugal and Italy**, working across SEO/SEA, marketplaces, analytics, tracking, conversion, commerce and day-to-day digital operations.
+I later led digital marketing and e-commerce across **20+ web properties in four European markets**, working across acquisition, marketplaces, analytics, tracking, conversion and digital operations.
 
 Today I build products where **software architecture, AI, automation, UX and business performance** meet. I care less about adding technology for its own sake than about making difficult workflows simpler, observable, maintainable and genuinely useful.
 
@@ -114,7 +114,7 @@ A **local-first power workspace for ChatGPT** focused on Projects, navigation, c
 
 ## Engineering roots, digital scale, product systems
 
-The technical side did not arrive after marketing — it **predates it**. My path started with engineering studies and technical projects, then expanded through IT and web work into digital marketing and e-commerce leadership.
+The technical side did not arrive after marketing — it **predates it**. My background spans application development, information systems, web platforms and digital project work before expanding into European e-commerce and growth leadership.
 
 That hybrid background is why I can move naturally from **SEO/SEA, marketplaces, analytics and conversion** to **APIs, databases, browser tooling, CI/CD, testing, automation and cross-platform architecture** without treating them as unrelated disciplines.
 
@@ -148,9 +148,13 @@ My working rule is simple: **understand the real problem, design the system deli
 
 <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript" />
 <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178c6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/PHP-0d1117?style=for-the-badge&logo=php&logoColor=777bb4" alt="PHP" />
 <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776ab" alt="Python" />
 <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=node.js&logoColor=5fa04e" alt="Node.js" />
 <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61dafb" alt="React" />
+<img src="https://img.shields.io/badge/Symfony-0d1117?style=for-the-badge&logo=symfony&logoColor=ffffff" alt="Symfony" />
+<img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169e1" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ed" alt="Docker" />
 <img src="https://img.shields.io/badge/GitHub_Actions-0d1117?style=for-the-badge&logo=githubactions&logoColor=2088ff" alt="GitHub Actions" />
 <img src="https://img.shields.io/badge/Cloudflare-0d1117?style=for-the-badge&logo=cloudflare&logoColor=f38020" alt="Cloudflare" />
 <img src="https://img.shields.io/badge/Browser_Extensions-0d1117?style=for-the-badge&logo=googlechrome&logoColor=4285f4" alt="Browser extensions" />
