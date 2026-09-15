@@ -6,9 +6,9 @@
 <rect x="1" y="1" width="1198" height="178" rx="22" fill="url(#bg)" stroke="#1E293B"/>
 <path d="M145 90H1055" stroke="url(#l)" stroke-width="3" stroke-linecap="round"/>
 <g font-family="Inter,system-ui,sans-serif" text-anchor="middle">
- <circle cx="160" cy="90" r="11" fill="#0B1220" stroke="#38BDF8" stroke-width="3"/><text x="160" y="52" fill="#F8FAFC" font-size="18" font-weight="650">GROWTH</text><text x="160" y="133" fill="#64748B" font-size="13">SEO · SEA · analytics</text>
- <circle cx="450" cy="90" r="11" fill="#0B1220" stroke="#60A5FA" stroke-width="3"/><text x="450" y="52" fill="#F8FAFC" font-size="18" font-weight="650">COMMERCE</text><text x="450" y="133" fill="#64748B" font-size="13">multi-market · UX · ops</text>
- <circle cx="750" cy="90" r="11" fill="#0B1220" stroke="#A78BFA" stroke-width="3"/><text x="750" y="52" fill="#F8FAFC" font-size="18" font-weight="650">AUTOMATION</text><text x="750" y="133" fill="#64748B" font-size="13">AI · workflows · APIs</text>
- <circle cx="1040" cy="90" r="11" fill="#0B1220" stroke="#22C55E" stroke-width="3"/><text x="1040" y="52" fill="#F8FAFC" font-size="18" font-weight="650">SYSTEMS</text><text x="1040" y="133" fill="#64748B" font-size="13">architecture · open source</text>
+ <circle cx="160" cy="90" r="11" fill="#0B1220" stroke="#38BDF8" stroke-width="3"/><text x="160" y="52" fill="#F8FAFC" font-size="18" font-weight="650">ENGINEERING</text><text x="160" y="133" fill="#64748B" font-size="13">software · electronics · systems</text>
+ <circle cx="450" cy="90" r="11" fill="#0B1220" stroke="#60A5FA" stroke-width="3"/><text x="450" y="52" fill="#F8FAFC" font-size="18" font-weight="650">DIGITAL SYSTEMS</text><text x="450" y="133" fill="#64748B" font-size="13">web · data · automation</text>
+ <circle cx="750" cy="90" r="11" fill="#0B1220" stroke="#A78BFA" stroke-width="3"/><text x="750" y="52" fill="#F8FAFC" font-size="18" font-weight="650">GROWTH &amp; COMMERCE</text><text x="750" y="133" fill="#64748B" font-size="13">SEO · SEA · analytics · multi-market</text>
+ <circle cx="1040" cy="90" r="11" fill="#0B1220" stroke="#22C55E" stroke-width="3"/><text x="1040" y="52" fill="#F8FAFC" font-size="18" font-weight="650">PRODUCT &amp; AI</text><text x="1040" y="133" fill="#64748B" font-size="13">architecture · agents · open source</text>
 </g>
 </svg>
