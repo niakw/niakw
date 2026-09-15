@@ -1,20 +1,24 @@
-<svg width="560" height="255" viewBox="0 0 560 255" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="560" height="255" viewBox="0 0 560 255" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">NiakGPT</title><desc id="desc">NiakGPT project card.</desc>
 <defs>
-  <linearGradient id="b" x1="0" y1="0" x2="560" y2="255"><stop stop-color="#0B0B18"/><stop offset="1" stop-color="#141126"/></linearGradient>
-  <linearGradient id="a" x1="36" y1="28" x2="500" y2="220"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
-  <pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#C4B5FD" stroke-opacity=".05"/></pattern>
+  <linearGradient id="b" x1="0" y1="0" x2="560" y2="255"><stop stop-color="#071016"/><stop offset=".58" stop-color="#0B1118"/><stop offset="1" stop-color="#151020"/></linearGradient>
+  <linearGradient id="a" x1="36" y1="28" x2="500" y2="220"><stop stop-color="#4FC1FF"/><stop offset=".55" stop-color="#C586C0"/><stop offset="1" stop-color="#4EC9B0"/></linearGradient>
+  <pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#C4B5FD" stroke-opacity=".045"/></pattern>
 </defs>
-<rect x="1" y="1" width="558" height="253" rx="22" fill="url(#b)" stroke="#312E55"/>
+<rect x="1" y="1" width="558" height="253" rx="22" fill="url(#b)" stroke="#293746"/>
 <rect x="1" y="1" width="558" height="253" rx="22" fill="url(#g)"/>
-<circle cx="49" cy="47" r="18" fill="#8B5CF6" fill-opacity=".15" stroke="#A78BFA" stroke-opacity=".55"/>
-<path d="M42 52l7-12 7 12M45 48h8" stroke="#C4B5FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="81" y="55" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="29" font-weight="750">NiakGPT</text>
-<text x="36" y="97" fill="#C4B5FD" font-family="ui-monospace,monospace" font-size="14" letter-spacing="1.2">LOCAL-FIRST · POWER WORKSPACE</text>
+<g transform="translate(28 25)">
+  <rect width="44" height="44" rx="11" fill="#101C24" stroke="#4FC1FF" stroke-width="1.8"/>
+  <path d="M11 33V12h5l12 13V12h5v21h-5L16 20v13h-5z" fill="#D9F4FF"/>
+  <circle cx="34" cy="9" r="3.2" fill="#4EC9B0"/>
+</g>
+<text x="86" y="55" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="29" font-weight="750">NiakGPT</text>
+<text x="36" y="97" fill="#8FD8FF" font-family="ui-monospace,monospace" font-size="14" letter-spacing="1.2">LOCAL-FIRST · POWER WORKSPACE</text>
 <text x="36" y="134" fill="#CBD5E1" font-family="Inter,system-ui,sans-serif" font-size="16">A browser workspace for deeper Projects, navigation,</text>
 <text x="36" y="158" fill="#CBD5E1" font-family="Inter,system-ui,sans-serif" font-size="16">continuity and long-running ChatGPT work.</text>
-<rect x="36" y="190" width="103" height="28" rx="14" fill="#8B5CF6" fill-opacity=".12" stroke="#A78BFA" stroke-opacity=".28"/><text x="54" y="209" fill="#C4B5FD" font-family="ui-monospace,monospace" font-size="12">LOCAL FIRST</text>
-<rect x="149" y="190" width="83" height="28" rx="14" fill="#0EA5E9" fill-opacity=".10" stroke="#38BDF8" stroke-opacity=".25"/><text x="170" y="209" fill="#7DD3FC" font-family="ui-monospace,monospace" font-size="12">UX</text>
+<rect x="36" y="190" width="103" height="28" rx="14" fill="#4FC1FF" fill-opacity=".10" stroke="#4FC1FF" stroke-opacity=".26"/><text x="54" y="209" fill="#A6E1FF" font-family="ui-monospace,monospace" font-size="12">LOCAL FIRST</text>
+<rect x="149" y="190" width="83" height="28" rx="14" fill="#C586C0" fill-opacity=".10" stroke="#C586C0" stroke-opacity=".25"/><text x="170" y="209" fill="#E2B9DE" font-family="ui-monospace,monospace" font-size="12">UX</text>
 <rect x="242" y="190" width="126" height="28" rx="14" fill="#64748B" fill-opacity=".10" stroke="#94A3B8" stroke-opacity=".2"/><text x="261" y="209" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="12">OPEN SOURCE</text>
 <path d="M426 43h84" stroke="url(#a)" stroke-width="3" stroke-linecap="round"/>
-<circle cx="518" cy="43" r="4" fill="#38BDF8"/>
+<circle cx="518" cy="43" r="4" fill="#4EC9B0"/>
 </svg>
