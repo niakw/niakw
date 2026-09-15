@@ -12,6 +12,14 @@
   <a href="https://github.com/niakw/NiakVIO"><img src="https://img.shields.io/github/stars/niakw/NiakVIO?style=for-the-badge&logo=github&label=NiakVIO&color=0ea5e9&labelColor=0d1117" alt="NiakVIO stars" /></a>
   <a href="https://github.com/niakw/NiakGPT"><img src="https://img.shields.io/github/stars/niakw/NiakGPT?style=for-the-badge&logo=github&label=NiakGPT&color=8b5cf6&labelColor=0d1117" alt="NiakGPT stars" /></a>
   <img src="https://img.shields.io/badge/open_source-builder-22c55e?style=for-the-badge&labelColor=0d1117" alt="Open source builder" />
+
+  <br /><br />
+
+  <a href="#selected-work">Work</a> ·
+  <a href="#from-digital-growth-to-product-engineering">Journey</a> ·
+  <a href="#principles-i-keep-coming-back-to">Principles</a> ·
+  <a href="#toolbox">Toolbox</a> ·
+  <a href="#github-activity">Activity</a>
 </div>
 
 <br />
@@ -125,6 +133,12 @@ That mix still shapes how I build: **business problem first, architecture second
 06  Architecture should protect iteration, not impress people.
 07  Ship → observe → repair → simplify → repeat.
 ```
+
+<br />
+
+<div align="center">
+  <img src="assets/build-loop.svg" width="100%" alt="Understand, model, build, validate, observe, repair" />
+</div>
 
 <br />
 
