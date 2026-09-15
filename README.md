@@ -6,6 +6,9 @@
   <strong>Entrepreneur E-commerce & Digital</strong> · ex-Head of Digital Marketing Europe · France
   <br /><br />
 
+  <strong>English</strong> · <a href="README.fr.md">Français</a>
+  <br /><br />
+
   <a href="https://github.com/niakw/NiakVIO"><img src="https://img.shields.io/github/stars/niakw/NiakVIO?style=for-the-badge&logo=github&label=NiakVIO&color=0ea5e9&labelColor=0d1117" alt="NiakVIO stars" /></a>
   <a href="https://github.com/niakw/NiakGPT"><img src="https://img.shields.io/github/stars/niakw/NiakGPT?style=for-the-badge&logo=github&label=NiakGPT&color=8b5cf6&labelColor=0d1117" alt="NiakGPT stars" /></a>
   <img src="https://img.shields.io/badge/open_source-builder-22c55e?style=for-the-badge&labelColor=0d1117" alt="Open source builder" />
@@ -87,11 +90,15 @@ I prefer tools that are inspectable and reproducible, with clear boundaries betw
 
 A community engine for Nuvio providers built around **structured provider knowledge, compatibility evidence, repair, native-device Labs and safe publication**. The interesting problem is not merely aggregation: it is keeping a moving ecosystem maintainable across TV, mobile and desktop clients.
 
+[Repository](https://github.com/niakw/NiakVIO) · [Project page](https://projects.eittyweb.fr/en/niakvio/)
+
 `provider architecture` · `automation` · `native labs` · `validation` · `JavaScript`
 
 ### [NiakGPT](https://github.com/niakw/NiakGPT)
 
 A **local-first power workspace for ChatGPT** focused on Projects, navigation, continuity and long-running work. It is designed to add capability without replacing the product around it, with a strong bias toward native-feeling UX and explicit ownership boundaries.
+
+[Repository](https://github.com/niakw/NiakGPT) · [Project page](https://projects.eittyweb.fr/en/niakgpt/)
 
 `browser extension` · `local-first` · `UX` · `automation` · `JavaScript`
 
