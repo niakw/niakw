@@ -20,6 +20,8 @@
 
 Mon parcours a commencé dans **l'e-commerce, l'acquisition et la croissance digitale**. Pendant plusieurs années, j'ai travaillé dans un environnement européen et multi-marchés : SEO/SEA, marketplaces, analytics, tracking, conversion, opérations catalogue et plateformes web — avant de passer progressivement de l'utilisation d'outils à la **conception et la construction des systèmes que j'aurais voulu avoir**.
 
+J'ai auparavant piloté le marketing digital sur **~30 propriétés web réparties entre la France, le Portugal et l'Italie**, avec des responsabilités couvrant l'acquisition, le commerce, l'analytics et les opérations digitales quotidiennes.
+
 Aujourd'hui, je travaille à l'intersection du **produit, de l'automatisation, de l'IA et de l'architecture logicielle**.
 
 La technologie n'est pas le but : je cherche surtout à rendre un workflow difficile **plus simple, observable, maintenable et réellement utile**.
@@ -164,7 +166,7 @@ Ce mélange continue de guider ma manière de construire : **problème métier d
 ## Activité GitHub
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niakw&theme=github_dark" width="94%" alt="Activité GitHub" />
+  <img src="https://raw.githubusercontent.com/niakw/niakw/output/profile-metrics.svg" width="94%" alt="Métriques GitHub publiques auto-générées" />
   <br /><br />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niakw/niakw/output/github-contribution-grid-snake-dark.svg" />
