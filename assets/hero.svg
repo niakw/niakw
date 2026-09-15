@@ -1,0 +1,58 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B14"/>
+      <stop offset="0.52" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="80" x2="980" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(220 90) rotate(33) scale(430 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1030 330) rotate(-145) scale(360 220)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#94A3B8" stroke-opacity="0.065" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#glowA)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#glowB)"/>
+
+  <circle cx="1070" cy="90" r="98" fill="#0EA5E9" fill-opacity="0.06" filter="url(#blur)"/>
+  <circle cx="1040" cy="310" r="130" fill="#8B5CF6" fill-opacity="0.06" filter="url(#blur)"/>
+
+  <g opacity="0.68">
+    <path d="M930 75H1070" stroke="#38BDF8" stroke-opacity="0.35"/>
+    <path d="M930 105H1110" stroke="#8B5CF6" stroke-opacity="0.22"/>
+    <path d="M930 135H1040" stroke="#22C55E" stroke-opacity="0.25"/>
+    <circle cx="1120" cy="75" r="4" fill="#38BDF8"/>
+    <circle cx="1060" cy="135" r="4" fill="#22C55E"/>
+  </g>
+
+  <text x="78" y="105" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="19" letter-spacing="3">PRODUCT × SYSTEMS × AUTOMATION</text>
+  <text x="74" y="205" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="104" font-weight="800" letter-spacing="-7">NIAK</text>
+  <rect x="78" y="235" width="530" height="4" rx="2" fill="url(#accent)"/>
+  <text x="78" y="294" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="500">Digital builder from strategy to shipping.</text>
+  <text x="78" y="335" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18">E-commerce · AI · Automation · UX · Open Source</text>
+
+  <g transform="translate(820 185)">
+    <rect width="300" height="146" rx="18" fill="#0B1220" stroke="#334155" stroke-opacity="0.72"/>
+    <circle cx="24" cy="24" r="5" fill="#F87171"/>
+    <circle cx="42" cy="24" r="5" fill="#FBBF24"/>
+    <circle cx="60" cy="24" r="5" fill="#4ADE80"/>
+    <text x="22" y="69" fill="#64748B" font-family="ui-monospace, monospace" font-size="14">$ build --useful</text>
+    <text x="22" y="95" fill="#E2E8F0" font-family="ui-monospace, monospace" font-size="14">→ simplify complexity</text>
+    <text x="22" y="119" fill="#A78BFA" font-family="ui-monospace, monospace" font-size="14">✓ ship &amp; iterate</text>
+  </g>
+</svg>
