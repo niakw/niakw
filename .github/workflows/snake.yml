@@ -33,7 +33,7 @@ jobs:
         run: python -m pip install --disable-pip-version-check pillow==11.3.0
 
       - name: Generate animated hero
-        run: python scripts/generate_hero.py
+        run: python scripts/generate_hero_v4.py
 
       - name: Generate contribution graph
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
