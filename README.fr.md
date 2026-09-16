@@ -1,18 +1,12 @@
 <div align="center">
-  <img src="assets/hero.svg" alt="NIAK — ingénierie, produit et automatisation" width="100%" />
+  <img src="assets/hero.svg" alt="NIAK — ingénierie, produit et systèmes digitaux" width="100%" />
 
   <br />
 
-  <strong>Ingénierie × Produit × Croissance digitale</strong> · Entrepreneur · ex-Head of Digital Marketing Europe · France
+  <strong>Ingénieur informatique · Produit · Croissance digitale · IA & automatisation</strong>
   <br /><br />
 
   <strong>Français</strong> · <a href="README.md">English</a>
-  <br /><br />
-
-  <a href="https://github.com/niakw/NiakVIO"><img src="https://img.shields.io/github/stars/niakw/NiakVIO?style=for-the-badge&logo=github&label=NiakVIO&color=0ea5e9&labelColor=0d1117" alt="Étoiles NiakVIO" /></a>
-  <a href="https://github.com/niakw/NiakGPT"><img src="https://img.shields.io/github/stars/niakw/NiakGPT?style=for-the-badge&logo=github&label=NiakGPT&color=8b5cf6&labelColor=0d1117" alt="Étoiles NiakGPT" /></a>
-  <img src="https://img.shields.io/badge/open_source-builder-22c55e?style=for-the-badge&labelColor=0d1117" alt="Open source builder" />
-
   <br /><br />
 
   <a href="#projets-sélectionnés">Projets</a> ·
@@ -25,11 +19,22 @@
 
 ## Je transforme des problèmes complexes en systèmes utiles.
 
-Je suis **ingénieur informatique de formation**, avec plus de dix ans de parcours entre logiciel, web, e-commerce et systèmes digitaux. J'ai ensuite piloté le marketing digital et l'e-commerce sur **plus de 20 propriétés web dans quatre marchés européens**.
+Je suis **ingénieur informatique de formation**, avec plus de dix ans de parcours entre logiciel, web, e-commerce et systèmes digitaux. Je travaille à l'endroit où se rencontrent architecture technique, réflexion produit et performance business.
 
 - **Socle ingénierie** — applications, systèmes d'information, plateformes web et automatisation de processus.
-- **Échelle business** — acquisition, marketplaces, analytics, conversion et e-commerce multi-marchés.
-- **Focus actuel** — architecture produit, IA, automatisation, observabilité et systèmes maintenables.
+- **Produit & échelle business** — acquisition, marketplaces, analytics, conversion et e-commerce multi-marchés.
+- **Focus actuel** — IA, automatisation, observabilité et systèmes conçus pour rester compréhensibles en grandissant.
+
+<details>
+<summary><strong>Mon parcours en 30 secondes</strong></summary>
+<br />
+
+- Développement d'applications métiers et d'outils web avant d'élargir mon travail aux projets numériques.
+- Pilotage du marketing digital et de l'e-commerce sur **plus de 20 propriétés web dans quatre marchés européens**.
+- Expérience croisée entre développement, gestion de projet, SEO/SEA, marketplaces, analytics, tracking et conversion.
+- Aujourd'hui, j'utilise ce parcours hybride pour concevoir des produits qui relient **code, utilisateurs, opérations et contraintes business**.
+
+</details>
 
 <br />
 
@@ -80,10 +85,20 @@ Des systèmes inspectables et reproductibles, avec des limites et des preuves ex
   <img src="assets/niakvio-card.svg" width="100%" alt="NiakVIO" />
 </a>
 
-**[NiakVIO](https://github.com/niakw/NiakVIO)** est un moteur communautaire pour les providers Nuvio, construit autour de connaissances structurées, preuves de compatibilité, réparation, Labs natifs et publication sûre.
+**[NiakVIO](https://github.com/niakw/NiakVIO)** — un moteur de providers maintenable, centré sur la preuve de compatibilité, la réparation et la validation sur appareils natifs.
 
-[Repository](https://github.com/niakw/NiakVIO) · [Project page](https://projects.eittyweb.fr/en/niakvio/)  
-`architecture provider` · `automation` · `native labs` · `validation`
+<details>
+<summary><strong>Ce que NiakVIO cherche à résoudre</strong></summary>
+<br />
+
+- Architecture provider structurée et connaissances réutilisables.
+- Labs natifs sur TV, mobile et desktop.
+- Compatibilité, diagnostic et réparation fondés sur des preuves.
+- Validation et publication plus sûre plutôt que des checks verts optimistes.
+
+[Repository](https://github.com/niakw/NiakVIO) · [Project page](https://projects.eittyweb.fr/en/niakvio/)
+
+</details>
 
 <br />
 
@@ -91,24 +106,43 @@ Des systèmes inspectables et reproductibles, avec des limites et des preuves ex
   <img src="assets/niakgpt-card.svg" width="100%" alt="NiakGPT" />
 </a>
 
-**[NiakGPT](https://github.com/niakw/NiakGPT)** est un power workspace local-first pour ChatGPT centré sur Projects, la navigation, la continuité et les travaux longs, avec une UX proche du produit natif.
+**[NiakGPT](https://github.com/niakw/NiakGPT)** — un power workspace local-first pour rendre les travaux longs dans ChatGPT plus structurés et continus.
 
-[Repository](https://github.com/niakw/NiakGPT) · [Project page](https://projects.eittyweb.fr/en/niakgpt/)  
-`browser extension` · `local-first` · `UX` · `automation`
+<details>
+<summary><strong>Ce que NiakGPT cherche à améliorer</strong></summary>
+<br />
+
+- Architecture local-first et responsabilités explicites.
+- Navigation et continuité renforcées pour les Projects longs.
+- UX proche du produit natif plutôt qu'un dashboard séparé.
+- Automatisation qui étend le produit sans masquer ce qu'elle fait.
+
+[Repository](https://github.com/niakw/NiakGPT) · [Project page](https://projects.eittyweb.fr/en/niakgpt/)
+
+</details>
 
 <br />
 
 ## Ma manière de construire
 
-Je ne sépare pas technique et business. Je peux passer de **SEO/SEA, analytics et conversion** à **APIs, bases de données, tests, CI/CD et architecture** selon ce que le vrai problème exige.
+Trois règles restent visibles dans presque tout ce que je construis :
+
+- **Comprendre le vrai problème avant de l'automatiser.**
+- **Préférer la preuve aux suppositions.**
+- **Concevoir pour l'échec, l'observation et la réparation.**
+
+<details>
+<summary><strong>Les principes derrière cette méthode</strong></summary>
+<br />
 
 - Rendre compréhensible ce qui est complexe.
 - Automatiser la répétition — pas la responsabilité.
-- Préférer la preuve à « ça devrait marcher ».
-- Garder les échecs visibles.
+- Garder les échecs visibles plutôt que fabriquer des checks verts.
 - Utiliser l'IA pour étendre le jugement, pas pour le masquer.
-- Faire de l'architecture un support à l'itération.
+- Faire de l'architecture un support à l'itération plutôt qu'un exercice de style.
 - Livrer → observer → réparer → simplifier → recommencer.
+
+</details>
 
 <br />
 
@@ -120,14 +154,18 @@ Je ne sépare pas technique et business. Je peux passer de **SEO/SEA, analytics 
 
 ## Toolbox
 
-**Build**  
-`JavaScript` · `TypeScript` · `PHP` · `Python` · `Node.js` · `React` · `Symfony`
+**Core**  
+`JavaScript` · `TypeScript` · `Node.js` · `React` · `PHP` · `Python`
 
-**Systèmes**  
-`PostgreSQL` · `Docker` · `GitHub Actions` · `Cloudflare` · `APIs` · `Browser Extensions`
+<details>
+<summary><strong>Toolbox complète</strong></summary>
+<br />
 
-**Commerce & digital**  
-`PrestaShop` · `Shopify` · `SEO` · `Analytics` · `Tracking` · `Automation`
+- **Build** — JavaScript, TypeScript, PHP, Python, Node.js, React, Symfony.
+- **Systèmes** — PostgreSQL, Docker, GitHub Actions, Cloudflare, APIs, extensions navigateur.
+- **Commerce & digital** — PrestaShop, Shopify, SEO, analytics, tracking, automatisation.
+
+</details>
 
 <br />
 
@@ -140,8 +178,6 @@ Je ne sépare pas technique et business. Je peux passer de **SEO/SEA, analytics 
 ## Activité GitHub
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/niakw/niakw/output/profile-metrics.svg" width="100%" alt="Métriques GitHub publiques auto-générées" />
-  <br /><br />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niakw/niakw/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/niakw/niakw/output/github-contribution-grid-snake.svg" />
