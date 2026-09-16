@@ -59,9 +59,8 @@ jobs:
 
           projects = [r for r in repos if not r.get("fork") and r.get("name") != owner]
           stars = sum(int(r.get("stargazers_count", 0)) for r in projects)
-          forks = sum(int(r.get("forks_count", 0)) for r in projects)
           langs = collections.Counter(r.get("language") for r in projects if r.get("language"))
-          top_langs = " · ".join(name for name, _ in langs.most_common(3)) or "—"
+          top_lang = langs.most_common(1)[0][0] if langs else "—"
 
           pushed = [r.get("pushed_at") for r in projects if r.get("pushed_at")]
           if pushed:
@@ -73,32 +72,30 @@ jobs:
           values = [
               (str(len(projects)), "PUBLIC PROJECTS"),
               (str(stars), "TOTAL STARS"),
-              (str(forks), "TOTAL FORKS"),
-              (html.escape(top_langs), "PRIMARY LANGUAGES"),
+              (html.escape(top_lang), "PRIMARY LANGUAGE"),
               (html.escape(latest_label), "LAST PUBLIC PUSH"),
           ]
 
-          positions = [68, 250, 430, 620, 820]
-          widths = [145, 145, 145, 165, 165]
+          positions = [75, 330, 585, 840]
           blocks = []
-          for (value, label), x, width in zip(values, positions, widths):
-              size = 30 if len(value) <= 12 else 20
+          for (value, label), x in zip(values, positions):
+              size = 40 if len(value) <= 12 else 31
               blocks.append(f'''
                 <g transform="translate({x} 0)">
-                  <text x="0" y="83" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="{size}" font-weight="760">{value}</text>
-                  <text x="0" y="111" fill="#64748B" font-family="ui-monospace,monospace" font-size="11" letter-spacing="1.3">{label}</text>
-                  <rect x="0" y="130" width="{width}" height="2" rx="1" fill="url(#accent)" opacity=".7"/>
+                  <text x="0" y="102" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="{size}" font-weight="800">{value}</text>
+                  <text x="0" y="137" fill="#94A3B8" font-family="ui-monospace,monospace" font-size="15" font-weight="700" letter-spacing="1.4">{label}</text>
+                  <rect x="0" y="157" width="185" height="3" rx="2" fill="url(#accent)" opacity=".85"/>
                 </g>''')
 
-          svg = f'''<svg width="1000" height="170" viewBox="0 0 1000 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+          svg = f'''<svg width="1100" height="200" viewBox="0 0 1100 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
             <title id="title">Public GitHub metrics for {html.escape(owner)}</title>
             <desc id="desc">Automatically generated from public GitHub repository data.</desc>
             <defs>
-              <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="170"><stop stop-color="#07111B"/><stop offset=".52" stop-color="#0D1320"/><stop offset="1" stop-color="#151022"/></linearGradient>
+              <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="200"><stop stop-color="#07111B"/><stop offset=".52" stop-color="#0D1320"/><stop offset="1" stop-color="#151022"/></linearGradient>
               <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38BDF8"/><stop offset=".52" stop-color="#A78BFA"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
             </defs>
-            <rect x="1" y="1" width="998" height="168" rx="20" fill="url(#bg)" stroke="#263244"/>
-            <text x="38" y="38" fill="#94A3B8" font-family="ui-monospace,monospace" font-size="12" letter-spacing="2.3">PUBLIC GITHUB SNAPSHOT · AUTO-GENERATED</text>
+            <rect x="1" y="1" width="1098" height="198" rx="22" fill="url(#bg)" stroke="#263244"/>
+            <text x="44" y="44" fill="#94A3B8" font-family="ui-monospace,monospace" font-size="16" font-weight="700" letter-spacing="2.5">PUBLIC GITHUB SNAPSHOT · AUTO-GENERATED</text>
             {''.join(blocks)}
           </svg>'''
 
