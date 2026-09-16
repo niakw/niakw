@@ -1,27 +1,23 @@
-<svg width="560" height="255" viewBox="0 0 560 255" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-<title id="title">NiakVIO</title><desc id="desc">NiakVIO project card.</desc>
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">NiakVIO</title><desc id="desc">Provider engine for compatibility, repair and safe publication.</desc>
 <defs>
-  <linearGradient id="b" x1="0" y1="0" x2="560" y2="255"><stop stop-color="#061327"/><stop offset=".55" stop-color="#07101C"/><stop offset="1" stop-color="#10091A"/></linearGradient>
-  <linearGradient id="a" x1="36" y1="28" x2="500" y2="220"><stop stop-color="#2DF1FF"/><stop offset=".55" stop-color="#7044FF"/><stop offset="1" stop-color="#FF2CCE"/></linearGradient>
-  <linearGradient id="mark" x1="26" y1="25" x2="70" y2="72"><stop stop-color="#2DF1FF"/><stop offset=".55" stop-color="#087CFF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
-  <pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#7DD3FC" stroke-opacity=".045"/></pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260"><stop stop-color="#061327"/><stop offset=".55" stop-color="#07101C"/><stop offset="1" stop-color="#10091A"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2DF1FF"/><stop offset=".55" stop-color="#7044FF"/><stop offset="1" stop-color="#FF2CCE"/></linearGradient>
 </defs>
-<rect x="1" y="1" width="558" height="253" rx="22" fill="url(#b)" stroke="#1C3150"/>
-<rect x="1" y="1" width="558" height="253" rx="22" fill="url(#g)"/>
-<g transform="translate(24 22)" filter="url(#glow)">
-  <ellipse cx="27" cy="25" rx="23" ry="13" fill="none" stroke="url(#a)" stroke-width="2.5" transform="rotate(-14 27 25)" opacity=".9"/>
-  <path d="M10 42V10h7l20 24V10h9v34h-8L18 20v22z" fill="url(#mark)"/>
-  <path d="M24 20c0-3 3-5 6-3l13 8c3 2 3 5 0 7l-13 8c-3 2-6 0-6-3z" fill="#06101D" stroke="#A5F3FC" stroke-width="1"/>
-  <path d="M29 23l9 5-9 5z" fill="#F0ABFC"/>
+<rect x="1" y="1" width="1198" height="258" rx="24" fill="url(#bg)" stroke="#1C3150"/>
+<g transform="translate(52 47)">
+  <ellipse cx="52" cy="52" rx="46" ry="27" fill="none" stroke="url(#accent)" stroke-width="4" transform="rotate(-14 52 52)"/>
+  <path d="M20 88V18h15l40 48V18h20v74H78L38 44v44z" fill="url(#accent)"/>
+  <path d="M48 44c0-6 6-10 12-6l25 15c6 4 6 10 0 14L60 82c-6 4-12 0-12-6z" fill="#07101C" stroke="#A5F3FC" stroke-width="2"/>
+  <path d="M58 49l17 11-17 10z" fill="#F0ABFC"/>
 </g>
-<text x="86" y="55" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="29" font-weight="750">NiakVIO</text>
-<text x="36" y="97" fill="#7DD3FC" font-family="ui-monospace,monospace" font-size="14" letter-spacing="1.2">PROVIDER ENGINE · NATIVE LABS</text>
-<text x="36" y="134" fill="#CBD5E1" font-family="Inter,system-ui,sans-serif" font-size="16">A maintainable provider layer built around</text>
-<text x="36" y="158" fill="#CBD5E1" font-family="Inter,system-ui,sans-serif" font-size="16">compatibility evidence, repair and safe publication.</text>
-<rect x="36" y="190" width="105" height="28" rx="14" fill="#0EA5E9" fill-opacity=".12" stroke="#38BDF8" stroke-opacity=".28"/><text x="54" y="209" fill="#7DD3FC" font-family="ui-monospace,monospace" font-size="12">AUTOMATION</text>
-<rect x="151" y="190" width="103" height="28" rx="14" fill="#7044FF" fill-opacity=".10" stroke="#A78BFA" stroke-opacity=".25"/><text x="169" y="209" fill="#C4B5FD" font-family="ui-monospace,monospace" font-size="12">TESTING</text>
-<rect x="264" y="190" width="126" height="28" rx="14" fill="#64748B" fill-opacity=".10" stroke="#94A3B8" stroke-opacity=".2"/><text x="283" y="209" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="12">OPEN SOURCE</text>
-<path d="M426 43h84" stroke="url(#a)" stroke-width="3" stroke-linecap="round"/>
-<circle cx="518" cy="43" r="4" fill="#FF2CCE"/>
+<text x="190" y="86" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="48" font-weight="800">NiakVIO</text>
+<text x="190" y="126" fill="#7DD3FC" font-family="ui-monospace,monospace" font-size="22" font-weight="700" letter-spacing="2">PROVIDER ENGINE · NATIVE LABS</text>
+<text x="190" y="174" fill="#D7E0EA" font-family="Inter,system-ui,sans-serif" font-size="28" font-weight="600">Compatibility evidence, automated repair and safe publication.</text>
+<g font-family="ui-monospace,monospace" font-size="18" font-weight="700">
+  <rect x="190" y="202" width="156" height="34" rx="17" fill="#0EA5E9" fill-opacity=".12" stroke="#38BDF8" stroke-opacity=".35"/><text x="218" y="225" fill="#7DD3FC">AUTOMATION</text>
+  <rect x="360" y="202" width="126" height="34" rx="17" fill="#7044FF" fill-opacity=".12" stroke="#A78BFA" stroke-opacity=".35"/><text x="389" y="225" fill="#D8B4FE">TESTING</text>
+  <rect x="500" y="202" width="174" height="34" rx="17" fill="#64748B" fill-opacity=".11" stroke="#94A3B8" stroke-opacity=".3"/><text x="527" y="225" fill="#CBD5E1">OPEN SOURCE</text>
+</g>
+<path d="M935 70h165" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/><circle cx="1118" cy="70" r="7" fill="#FF2CCE"/>
 </svg>
