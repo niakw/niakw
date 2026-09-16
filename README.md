@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero.svg" alt="NIAK — engineering, product and digital systems" width="100%" />
+  <img src="https://raw.githubusercontent.com/niakw/niakw/output/hero.gif?v=3" alt="NIAK — engineering, product, AI and automation" width="100%" />
 
   <br />
 
@@ -53,12 +53,14 @@ I'm a **computer engineer by training** with more than a decade across software,
 ### ⚙️ Engineering & systems
 Interfaces, constraints, data flows, failure modes and maintainability.
 
+<br /><br />
 </td>
 <td width="50%" valign="top">
 
 ### ⚡ Product & growth
 Technical decisions connected to users, conversion, operations and business value.
 
+<br /><br />
 </td>
 </tr>
 <tr>
@@ -67,12 +69,14 @@ Technical decisions connected to users, conversion, operations and business valu
 ### 🤖 AI & automation
 Reasoning and assisted workflows with important decisions kept reviewable.
 
+<br /><br />
 </td>
 <td width="50%" valign="top">
 
 ### 🧩 Open source
 Inspectable, reproducible systems with explicit boundaries and evidence.
 
+<br /><br />
 </td>
 </tr>
 </table>
@@ -154,16 +158,21 @@ Three rules stay visible in almost everything I build:
 
 ## Toolbox
 
-**Core**  
-`JavaScript` · `TypeScript` · `Node.js` · `React` · `PHP` · `Python`
+**Core engineering**  
+`JavaScript` · `TypeScript` · `PHP` · `Python` · `SQL` · `Node.js` · `React` · `Symfony`
 
 <details>
-<summary><strong>Full toolbox</strong></summary>
+<summary><strong>Full toolbox & domains</strong></summary>
 <br />
 
-- **Build** — JavaScript, TypeScript, PHP, Python, Node.js, React, Symfony.
-- **Systems** — PostgreSQL, Docker, GitHub Actions, Cloudflare, APIs, browser extensions.
-- **Commerce & digital** — PrestaShop, Shopify, SEO, analytics, tracking, automation.
+- **Software & web** — JavaScript, TypeScript, PHP, Python, SQL, Node.js, React, Symfony, web applications, REST APIs, JSON, browser extensions and third-party integrations.
+- **Data & systems** — PostgreSQL, MySQL, relational data modelling, ETL, Talend, Docker, Git, GitHub Actions, CI/CD, Cloudflare, deployment workflows, debugging, testing and observability.
+- **AI & automation** — AI-assisted workflows, agent orchestration, multi-provider routing, validation loops, local-first tooling, API automation, Zapier and process automation.
+- **E-commerce platforms** — PrestaShop, Shopify, WordPress, Webflow, catalogue operations, product data, marketplaces, modules/connectors and multi-store environments.
+- **SEO & acquisition** — technical SEO, content/search strategy, SEA, Google Ads, Meta Ads, TikTok Ads, marketplace acquisition and multi-market growth.
+- **Analytics & performance** — Google Analytics, tracking plans, analytics instrumentation, Looker Studio, KPI dashboards, Excel, conversion analysis, UX/CRO and performance reporting.
+- **CRM & lifecycle** — emailing, Mailchimp, Brevo/Sendinblue, Mailjet, automation scenarios and customer journey optimisation.
+- **Product & delivery** — product architecture, digital strategy, project ownership, requirements, vendor coordination, cross-functional delivery and continuous improvement.
 
 </details>
 
