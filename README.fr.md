@@ -158,21 +158,28 @@ Trois règles restent visibles dans presque tout ce que je construis :
 
 ## Toolbox
 
-**Socle ingénierie**  
-`JavaScript` · `TypeScript` · `PHP` · `Python` · `SQL` · `Node.js` · `React` · `Symfony`
+**Langages & socle engineering**  
+`JavaScript` · `TypeScript` · `PHP` · `Python` · `C++` · `C` · `SQL` · `HTML` · `CSS`
+
+**Stack applicative principale**  
+`Node.js` · `React` · `Next.js` · `Symfony` · `REST APIs` · `Extensions navigateur`
 
 <details>
 <summary><strong>Toolbox & domaines complets</strong></summary>
 <br />
 
-- **Logiciel & web** — JavaScript, TypeScript, PHP, Python, SQL, Node.js, React, Symfony, applications web, APIs REST, JSON, extensions navigateur et intégrations tierces.
-- **Data & systèmes** — PostgreSQL, MySQL, modélisation relationnelle, ETL, Talend, Docker, Git, GitHub Actions, CI/CD, Cloudflare, workflows de déploiement, debugging, tests et observabilité.
-- **IA & automatisation** — workflows assistés par IA, orchestration d'agents, routage multi-provider, boucles de validation, outils local-first, automatisation API, Zapier et automatisation de processus.
-- **Plateformes e-commerce** — PrestaShop, Shopify, WordPress, Webflow, gestion de catalogues, données produits, marketplaces, modules/connecteurs et environnements multi-boutiques.
+- **Programmation & ingénierie logicielle** — JavaScript, TypeScript, PHP, Python, C++, C, SQL, HTML, CSS, programmation orientée objet, architecture applicative, applications métiers et résolution de problèmes techniques.
+- **Web & stack applicative** — Node.js, React, Next.js, Symfony, APIs REST, JSON, extensions navigateur, WebViews, intégrations tierces et architecture d'applications web.
+- **Data & bases de données** — PostgreSQL, MySQL, SQLite, modélisation relationnelle, ETL, Talend, transformation de données et workflows applicatifs basés sur les données.
+- **Systèmes & infrastructure** — Linux/VPS, Docker, Docker Compose, Git, GitHub Actions, CI/CD, Cloudflare, Nginx/Caddy, systemd, reverse proxy/HTTPS, workflows de déploiement, health checks, logs, monitoring, sauvegardes et logique de rollback.
+- **Tests & tooling plateformes** — scripts Python de test/validation, CodeQL, Dependabot, Playwright/Chromium, émulateur Android/ADB, tests natifs Android/TV, CI basée sur QEMU et travail de compatibilité multi-device.
+- **IA & automatisation** — workflows assistés par IA, orchestration d'agents, routage multi-provider, boucles de validation, outils local-first, automatisation API, Zapier, design de workflows et automatisation de processus.
+- **Plateformes e-commerce** — PrestaShop, Shopify, WordPress, Webflow, gestion de catalogues, données produits, marketplaces, modules/connecteurs, environnements multi-boutiques et architecture e-commerce.
 - **SEO & acquisition** — SEO technique, stratégie contenu/recherche, SEA, Google Ads, Meta Ads, TikTok Ads, acquisition marketplaces et croissance multi-marchés.
 - **Analytics & performance** — Google Analytics, plans de tracking, instrumentation analytics, Looker Studio, dashboards KPI, Excel, analyse de conversion, UX/CRO et reporting de performance.
 - **CRM & lifecycle** — emailing, Mailchimp, Brevo/Sendinblue, Mailjet, scénarios d'automatisation et optimisation du parcours client.
-- **Produit & delivery** — architecture produit, stratégie digitale, pilotage de projet, cadrage, coordination prestataires, delivery transverse et amélioration continue.
+- **Produit & delivery** — architecture produit, stratégie digitale, pilotage de projet, cadrage, coordination prestataires, delivery transverse, expérimentation et amélioration continue.
+- **Exposition engineering plus large** — Android NDK/JNI, écosystèmes Java/Kotlin/Swift, fondamentaux systèmes/réseaux, architecture cross-platform, Tauri/WebViews et contraintes de performance bas niveau.
 
 </details>
 
