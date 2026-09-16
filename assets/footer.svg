@@ -1,10 +1,11 @@
-<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="160" viewBox="0 0 1200 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Build things worth maintaining</title><desc id="desc">NIAK engineering, product and automation.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="150"><stop stop-color="#07111B"/><stop offset="0.5" stop-color="#111827"/><stop offset="1" stop-color="#140F24"/></linearGradient>
-  <linearGradient id="line" x1="190" y1="0" x2="1010" y2="0"><stop stop-color="#38BDF8" stop-opacity="0"/><stop offset="0.3" stop-color="#38BDF8"/><stop offset="0.65" stop-color="#A78BFA"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="160"><stop stop-color="#07111B"/><stop offset=".5" stop-color="#111827"/><stop offset="1" stop-color="#140F24"/></linearGradient>
+  <linearGradient id="line" x1="180" y1="0" x2="1020" y2="0"><stop stop-color="#38BDF8" stop-opacity="0"/><stop offset=".3" stop-color="#38BDF8"/><stop offset=".65" stop-color="#A78BFA"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></linearGradient>
 </defs>
-<rect width="1200" height="150" rx="24" fill="url(#bg)"/>
-<path d="M180 42H1020" stroke="url(#line)" stroke-width="2"/>
-<text x="600" y="89" text-anchor="middle" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="25" font-weight="650">Build things worth maintaining.</text>
-<text x="600" y="118" text-anchor="middle" fill="#64748B" font-family="ui-monospace,monospace" font-size="13" letter-spacing="2">NIAK · PRODUCT / SYSTEMS / AUTOMATION</text>
+<rect width="1200" height="160" rx="24" fill="url(#bg)"/>
+<path d="M180 42H1020" stroke="url(#line)" stroke-width="3"/>
+<text x="600" y="96" text-anchor="middle" fill="#F8FAFC" font-family="Inter,system-ui,sans-serif" font-size="31" font-weight="720">Build things worth maintaining.</text>
+<text x="600" y="130" text-anchor="middle" fill="#94A3B8" font-family="ui-monospace,monospace" font-size="17" font-weight="650" letter-spacing="2.5">NIAK · ENGINEERING / PRODUCT / AUTOMATION</text>
 </svg>
