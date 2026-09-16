@@ -1,31 +1,74 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-<title id="title">NIAK</title><desc id="desc">Engineering, product and automation.</desc>
+<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">NIAK — Engineering, product and automation</title>
+<desc id="desc">Animated profile banner combining engineering, product, AI, automation and digital systems.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360"><stop stop-color="#06101D"/><stop offset=".52" stop-color="#0B1220"/><stop offset="1" stop-color="#151026"/></linearGradient>
-  <linearGradient id="accent" x1="90" y1="0" x2="1090" y2="0"><stop stop-color="#38BDF8"/><stop offset=".55" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
-  <radialGradient id="glow1"><stop stop-color="#0EA5E9" stop-opacity=".24"/><stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/></radialGradient>
-  <radialGradient id="glow2"><stop stop-color="#8B5CF6" stop-opacity=".20"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#94A3B8" stroke-opacity=".055"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="440"><stop stop-color="#050B14"/><stop offset=".48" stop-color="#091321"/><stop offset="1" stop-color="#160E26"/></linearGradient>
+  <linearGradient id="accent" x1="70" y1="0" x2="1130" y2="0"><stop stop-color="#27D3FF"/><stop offset=".52" stop-color="#7C5CFF"/><stop offset="1" stop-color="#20E49A"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1A2A" stop-opacity=".95"/><stop offset="1" stop-color="#111126" stop-opacity=".92"/></linearGradient>
+  <radialGradient id="cyanGlow"><stop stop-color="#27D3FF" stop-opacity=".24"/><stop offset="1" stop-color="#27D3FF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="violetGlow"><stop stop-color="#7C5CFF" stop-opacity=".23"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#94A3B8" stroke-opacity=".055"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="clip"><rect width="1200" height="440" rx="28"/></clipPath>
   <style>
-    .pulse{animation:pulse 5s ease-in-out infinite}.drift{animation:drift 7s ease-in-out infinite}
-    @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
-    @media(prefers-reduced-motion:reduce){.pulse,.drift{animation:none}}
+    .scan{animation:scan 6.5s linear infinite}.dash{stroke-dasharray:10 12;animation:dash 8s linear infinite}.pulse{animation:pulse 3.8s ease-in-out infinite}.float{animation:float 6s ease-in-out infinite}.orb{transform-box:fill-box;transform-origin:center;animation:spin 13s linear infinite}.blink{animation:blink 1.4s steps(1) infinite}
+    @keyframes scan{0%{transform:translateX(-340px)}100%{transform:translateX(1450px)}}
+    @keyframes dash{to{stroke-dashoffset:-132}}
+    @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes blink{0%,47%{opacity:1}48%,100%{opacity:.18}}
+    @media(prefers-reduced-motion:reduce){.scan,.dash,.pulse,.float,.orb,.blink{animation:none}}
   </style>
 </defs>
-<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-<rect width="1200" height="360" rx="28" fill="url(#grid)"/>
-<circle cx="170" cy="70" r="260" fill="url(#glow1)"/>
-<circle cx="1020" cy="300" r="280" fill="url(#glow2)"/>
 
-<text x="76" y="72" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="26" font-weight="650" letter-spacing="4">ENGINEERING × PRODUCT × AUTOMATION</text>
-<text x="72" y="205" fill="#F8FAFC" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="126" font-weight="820" letter-spacing="-8">NIAK</text>
-<rect x="78" y="226" width="610" height="5" rx="3" fill="url(#accent)"/>
-<text x="78" y="280" fill="#E2E8F0" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="32" font-weight="650">Engineer-minded builder for useful digital systems.</text>
-<text x="78" y="321" fill="#94A3B8" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="23" font-weight="500">Software · E-commerce · AI · Automation · Open Source</text>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="440" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="440" rx="28" fill="url(#grid)"/>
+  <circle cx="170" cy="70" r="280" fill="url(#cyanGlow)"/>
+  <circle cx="1035" cy="360" r="330" fill="url(#violetGlow)"/>
+  <path d="M-80 365C190 292 322 410 558 330C760 261 939 139 1270 188" stroke="url(#accent)" stroke-width="2" opacity=".18" class="dash"/>
+  <rect x="-330" y="0" width="250" height="520" transform="rotate(14 -330 0)" fill="url(#accent)" opacity=".055" class="scan"/>
 
-<g transform="translate(855 73)" class="drift">
-  <rect width="245" height="214" rx="34" fill="#0A1422" stroke="#334155" stroke-width="2"/>
-  <rect x="18" y="18" width="209" height="178" rx="27" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".8"/>
-  <path d="M62 161V54h22l78 72V54h30v107h-24L92 91v70H62z" fill="url(#accent)" class="pulse"/>
+  <text x="72" y="72" fill="#A8B8CC" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="25" font-weight="700" letter-spacing="3.4">ENGINEERING × PRODUCT × DIGITAL SYSTEMS</text>
+  <text x="67" y="201" fill="#F8FAFC" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="126" font-weight="850" letter-spacing="-8">NIAK</text>
+  <rect x="74" y="222" width="570" height="5" rx="3" fill="url(#accent)" filter="url(#glow)"/>
+  <text x="74" y="278" fill="#E7EEF8" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="31" font-weight="700">Building useful systems from complex problems.</text>
+  <text x="74" y="321" fill="#A8B8CC" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="23" font-weight="520">Software · Product · AI · Automation · E-commerce</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" font-weight="700">
+    <rect x="74" y="354" width="152" height="42" rx="12" fill="#081827" stroke="#1D4B63"/><text x="150" y="381" text-anchor="middle" fill="#7DDCFF">ENGINEER</text>
+    <rect x="238" y="354" width="144" height="42" rx="12" fill="#10152A" stroke="#41366F"/><text x="310" y="381" text-anchor="middle" fill="#C5B8FF">PRODUCT</text>
+    <rect x="394" y="354" width="112" height="42" rx="12" fill="#0C1921" stroke="#1E5A55"/><text x="450" y="381" text-anchor="middle" fill="#80F4CC">BUILD</text>
+  </g>
+
+  <g transform="translate(758 54)" class="float">
+    <rect width="384" height="326" rx="28" fill="url(#panel)" stroke="#314158" stroke-width="2"/>
+    <circle cx="25" cy="24" r="5" fill="#F87171"/><circle cx="43" cy="24" r="5" fill="#FBBF24"/><circle cx="61" cy="24" r="5" fill="#4ADE80"/>
+    <text x="88" y="31" fill="#8FA3BA" font-family="ui-monospace,monospace" font-size="17" font-weight="700" letter-spacing="2">SYSTEM MAP</text>
+    <path d="M33 57H351" stroke="#334155"/>
+
+    <g transform="translate(192 170)">
+      <circle r="76" fill="#091725" stroke="#3B4B63" stroke-width="2"/>
+      <circle r="58" fill="#0A1222" stroke="url(#accent)" stroke-width="3" opacity=".95" filter="url(#glow)"/>
+      <path d="M-25 30V-31h13l43 41v-41h18v61H34L-7-9v39H-25z" fill="url(#accent)"/>
+      <g class="orb">
+        <circle cx="0" cy="-91" r="7" fill="#27D3FF"/><circle cx="78" cy="45" r="6" fill="#20E49A"/><circle cx="-78" cy="45" r="6" fill="#8B5CF6"/>
+      </g>
+    </g>
+
+    <path d="M61 115C94 115 100 144 123 151" stroke="#27D3FF" stroke-width="2" class="dash" opacity=".72"/>
+    <path d="M323 115C291 115 284 144 261 151" stroke="#8B5CF6" stroke-width="2" class="dash" opacity=".72"/>
+    <path d="M61 247C96 247 103 216 126 208" stroke="#20E49A" stroke-width="2" class="dash" opacity=".72"/>
+
+    <g font-family="Inter,system-ui,sans-serif" font-weight="750">
+      <rect x="24" y="84" width="118" height="42" rx="12" fill="#0A1B2A" stroke="#1F617B"/><text x="83" y="111" text-anchor="middle" fill="#BDEEFF" font-size="18">ENGINEER</text>
+      <rect x="242" y="84" width="118" height="42" rx="12" fill="#161329" stroke="#584A88"/><text x="301" y="111" text-anchor="middle" fill="#D8CFFF" font-size="18">PRODUCT</text>
+      <rect x="24" y="238" width="118" height="42" rx="12" fill="#0D1D1A" stroke="#276354"/><text x="83" y="265" text-anchor="middle" fill="#B7F7DC" font-size="18">GROWTH</text>
+    </g>
+
+    <circle cx="336" cy="260" r="8" fill="#20E49A" class="blink"/><text x="318" y="292" text-anchor="end" fill="#7E91A8" font-family="ui-monospace,monospace" font-size="16">observe · validate · iterate</text>
+  </g>
 </g>
 </svg>
