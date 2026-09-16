@@ -158,21 +158,28 @@ Three rules stay visible in almost everything I build:
 
 ## Toolbox
 
-**Core engineering**  
-`JavaScript` · `TypeScript` · `PHP` · `Python` · `SQL` · `Node.js` · `React` · `Symfony`
+**Languages & core engineering**  
+`JavaScript` · `TypeScript` · `PHP` · `Python` · `C++` · `C` · `SQL` · `HTML` · `CSS`
+
+**Main application stack**  
+`Node.js` · `React` · `Next.js` · `Symfony` · `REST APIs` · `Browser Extensions`
 
 <details>
 <summary><strong>Full toolbox & domains</strong></summary>
 <br />
 
-- **Software & web** — JavaScript, TypeScript, PHP, Python, SQL, Node.js, React, Symfony, web applications, REST APIs, JSON, browser extensions and third-party integrations.
-- **Data & systems** — PostgreSQL, MySQL, relational data modelling, ETL, Talend, Docker, Git, GitHub Actions, CI/CD, Cloudflare, deployment workflows, debugging, testing and observability.
-- **AI & automation** — AI-assisted workflows, agent orchestration, multi-provider routing, validation loops, local-first tooling, API automation, Zapier and process automation.
-- **E-commerce platforms** — PrestaShop, Shopify, WordPress, Webflow, catalogue operations, product data, marketplaces, modules/connectors and multi-store environments.
+- **Programming & software engineering** — JavaScript, TypeScript, PHP, Python, C++, C, SQL, HTML, CSS, object-oriented programming, application architecture, business applications and technical problem solving.
+- **Web & application stack** — Node.js, React, Next.js, Symfony, REST APIs, JSON, browser extensions, WebViews, third-party integrations and web application architecture.
+- **Data & databases** — PostgreSQL, MySQL, SQLite, relational modelling, ETL, Talend, data transformation and database-backed application workflows.
+- **Systems & infrastructure** — Linux/VPS, Docker, Docker Compose, Git, GitHub Actions, CI/CD, Cloudflare, Nginx/Caddy, systemd, reverse proxy/HTTPS, deployment workflows, health checks, logs, monitoring, backups and rollback thinking.
+- **Testing & platform tooling** — Python test/validation scripts, CodeQL, Dependabot, Playwright/Chromium, Android emulator/ADB, native Android/TV testing, QEMU-based CI and cross-device compatibility work.
+- **AI & automation** — AI-assisted workflows, agent orchestration, multi-provider routing, validation loops, local-first tooling, API automation, Zapier, workflow design and process automation.
+- **E-commerce platforms** — PrestaShop, Shopify, WordPress, Webflow, catalogue operations, product data, marketplaces, modules/connectors, multi-store environments and e-commerce architecture.
 - **SEO & acquisition** — technical SEO, content/search strategy, SEA, Google Ads, Meta Ads, TikTok Ads, marketplace acquisition and multi-market growth.
 - **Analytics & performance** — Google Analytics, tracking plans, analytics instrumentation, Looker Studio, KPI dashboards, Excel, conversion analysis, UX/CRO and performance reporting.
 - **CRM & lifecycle** — emailing, Mailchimp, Brevo/Sendinblue, Mailjet, automation scenarios and customer journey optimisation.
-- **Product & delivery** — product architecture, digital strategy, project ownership, requirements, vendor coordination, cross-functional delivery and continuous improvement.
+- **Product & delivery** — product architecture, digital strategy, project ownership, requirements, vendor coordination, cross-functional delivery, experimentation and continuous improvement.
+- **Broader engineering exposure** — Android NDK/JNI, Java/Kotlin/Swift ecosystems, systems/networking fundamentals, cross-platform architecture, Tauri/WebViews and lower-level performance constraints.
 
 </details>
 
