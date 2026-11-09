@@ -1,129 +1,65 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/niakw/niakw/output/hero.gif?v=3" alt="NIAK — ingénierie, produit, IA et automatisation" width="100%" />
 
-  <br />
-
-  <strong>Ingénieur informatique · Produit · Croissance digitale · IA & automatisation</strong>
   <br /><br />
+
+  <a href="https://github.com/niakw" title="Abonnement GitHub Pro — badge README personnalisé">
+    <img src="https://img.shields.io/badge/GitHub-PRO-8957e5?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Abonné GitHub Pro" />
+  </a>
+
+  <h2>Salut, moi c'est Niak.</h2>
+  <strong>Ingénierie logicielle · Produit &amp; croissance digitale · IA &amp; automatisation</strong>
+  <p>Je conçois des logiciels utiles et maintenables, au croisement des systèmes et des contraintes du terrain.</p>
 
   <strong>Français</strong> · <a href="README.md">English</a>
   <br /><br />
 
-  <a href="#projets-sélectionnés">Projets</a> ·
+  <a href="#projets-en-vedette">Projets</a> ·
+  <a href="#parcours">Parcours</a> ·
   <a href="#ma-manière-de-construire">Méthode</a> ·
-  <a href="#toolbox">Toolbox</a> ·
+  <a href="#toolbox">Compétences</a> ·
   <a href="#activité-github">Activité</a>
 </div>
 
-<br />
-
-## Je transforme des problèmes complexes en systèmes utiles.
-
-Je suis **ingénieur informatique de formation**, avec plus de dix ans de parcours entre logiciel, web, e-commerce et systèmes digitaux. Je travaille à l'endroit où se rencontrent architecture technique, réflexion produit et performance business.
-
-- **Socle ingénierie** — applications, systèmes d'information, plateformes web et automatisation de processus.
-- **Produit & échelle business** — acquisition, marketplaces, analytics, conversion et e-commerce multi-marchés.
-- **Focus actuel** — IA, automatisation, observabilité et systèmes conçus pour rester compréhensibles en grandissant.
-
-<details>
-<summary><strong>Mon parcours en 30 secondes</strong></summary>
-<br />
-
-- Développement d'applications métiers et d'outils web avant d'élargir mon travail aux projets numériques.
-- Pilotage du marketing digital et de l'e-commerce sur **plus de 20 propriétés web dans quatre marchés européens**.
-- Expérience croisée entre développement, gestion de projet, SEO/SEA, marketplaces, analytics, tracking et conversion.
-- Aujourd'hui, j'utilise ce parcours hybride pour concevoir des produits qui relient **code, utilisateurs, opérations et contraintes business**.
-
-</details>
+<!-- Le visuel PRO ci-dessus est un badge README personnalisé, distinct du badge natif de l'abonnement GitHub. -->
 
 <br />
+
+## Ce que je construis
+
+Je travaille à la croisée de **l'ingénierie logicielle, des produits numériques et de l'automatisation**. Mon parcours relie le développement applicatif à plus de dix ans d'expérience dans le web, l'e-commerce et la croissance digitale : opérations multi-marchés, marketplaces, analytics et conversion.
+
+Aujourd'hui, je me concentre sur **l'ingénierie assistée par IA, la fiabilité des systèmes, la compatibilité et l'automatisation utile**. Je privilégie les avancées vérifiables, les tests représentatifs et les architectures maintenables aux démonstrations flatteuses.
+
+## Projets en vedette
+
+<a href="https://github.com/niakw/ProsperoEden-Encore"><img src="assets/eden-encore-card.svg" alt="Eden Encore — émulation, graphismes et compatibilité" width="100%" /></a>
+
+**[Eden Encore](https://github.com/niakw/ProsperoEden-Encore)** — travaux d'ingénierie et de recherche sur l'émulation et la compatibilité, avec un accent sur les pipelines graphiques, l'intégration système, les validations hôte et les résultats reproductibles. **Développement actif ; compatibilité encore en chantier.**
+
+<a href="https://github.com/niakw/NiakVIO"><img src="assets/niakvio-card.svg" alt="NiakVIO — moteurs de providers et compatibilité démontrable" width="100%" /></a>
+
+**[NiakVIO](https://github.com/niakw/NiakVIO)** — une plateforme de providers axée sur la compatibilité prouvée, le diagnostic structuré, les workflows de réparation et les vérifications sur appareils natifs. [Présentation du projet](https://projects.eittyweb.fr/en/niakvio/).
+
+<a href="https://github.com/niakw/TizenTubeCobalt"><img src="assets/tizentube-cobalt-card.svg" alt="TizenTube Cobalt — lecture vidéo et plateformes TV" width="100%" /></a>
+
+**[TizenTube Cobalt](https://github.com/niakw/TizenTubeCobalt)** — fork communautaire autour de la lecture vidéo, de la stabilité sur TV connectées, de l'expérience de visionnage et des adaptations multi-plateformes. **En développement actif.**
+
+<a href="https://github.com/niakw/NiakGPT"><img src="assets/niakgpt-card.svg" alt="NiakGPT — environnement de travail local-first" width="100%" /></a>
+
+**[NiakGPT](https://github.com/niakw/NiakGPT)** — un environnement local-first explorant la continuité, la navigation et l'ergonomie des projets ChatGPT complexes et de longue durée. [Présentation du projet](https://projects.eittyweb.fr/en/niakgpt/).
+
+<br />
+
+## Parcours
+
+- **Ingénierie** — applications métiers, plateformes web, intégration de systèmes, bases de données et automatisation.
+- **Produit & croissance** — pilotage du marketing digital et de l'e-commerce sur **plus de 20 propriétés web dans quatre marchés européens**.
+- **Réalisation** — relier architecture et développement aux usages, à la performance, à la maintenance et aux résultats mesurables.
 
 <div align="center">
-  <img src="assets/journey.svg" width="100%" alt="Ingénierie vers systèmes digitaux vers croissance et commerce vers produit et IA" />
+  <img src="assets/journey.svg" width="100%" alt="Ingénierie, systèmes digitaux, croissance et commerce, produit et IA" />
 </div>
-
-<br />
-
-## Ce que j'apporte
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⚙️ Ingénierie & systèmes
-Interfaces, contraintes, flux de données, modes de panne et maintenabilité.
-
-<br /><br />
-</td>
-<td width="50%" valign="top">
-
-### ⚡ Produit & croissance
-Des décisions techniques reliées aux utilisateurs, à la conversion, aux opérations et à la valeur business.
-
-<br /><br />
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 IA & automatisation
-Raisonnement et workflows assistés avec des décisions importantes toujours vérifiables.
-
-<br /><br />
-</td>
-<td width="50%" valign="top">
-
-### 🧩 Open source
-Des systèmes inspectables et reproductibles, avec des limites et des preuves explicites.
-
-<br /><br />
-</td>
-</tr>
-</table>
-
-<br />
-
-## Projets sélectionnés
-
-<a href="https://github.com/niakw/NiakVIO">
-  <img src="assets/niakvio-card.svg" width="100%" alt="NiakVIO" />
-</a>
-
-**[NiakVIO](https://github.com/niakw/NiakVIO)** — un moteur de providers maintenable, centré sur la preuve de compatibilité, la réparation et la validation sur appareils natifs.
-
-<details>
-<summary><strong>Ce que NiakVIO cherche à résoudre</strong></summary>
-<br />
-
-- Architecture provider structurée et connaissances réutilisables.
-- Labs natifs sur TV, mobile et desktop.
-- Compatibilité, diagnostic et réparation fondés sur des preuves.
-- Validation et publication plus sûre plutôt que des checks verts optimistes.
-
-[Repository](https://github.com/niakw/NiakVIO) · [Project page](https://projects.eittyweb.fr/en/niakvio/)
-
-</details>
-
-<br />
-
-<a href="https://github.com/niakw/NiakGPT">
-  <img src="assets/niakgpt-card.svg" width="100%" alt="NiakGPT" />
-</a>
-
-**[NiakGPT](https://github.com/niakw/NiakGPT)** — un power workspace local-first pour rendre les travaux longs dans ChatGPT plus structurés et continus.
-
-<details>
-<summary><strong>Ce que NiakGPT cherche à améliorer</strong></summary>
-<br />
-
-- Architecture local-first et responsabilités explicites.
-- Navigation et continuité renforcées pour les Projects longs.
-- UX proche du produit natif plutôt qu'un dashboard séparé.
-- Automatisation qui étend le produit sans masquer ce qu'elle fait.
-
-[Repository](https://github.com/niakw/NiakGPT) · [Project page](https://projects.eittyweb.fr/en/niakgpt/)
-
-</details>
 
 <br />
 
@@ -190,6 +126,10 @@ Trois règles restent visibles dans presque tout ce que je construis :
 `agents IA avec validation` · `logiciels local-first` · `outils multi-plateformes` · `observabilité` · `systèmes e-commerce` · `architecture produit`
 
 <br />
+
+## Me retrouver
+
+[Projets GitHub](https://github.com/niakw?tab=repositories) · [Portfolio projets](https://projects.eittyweb.fr/en/) · [English version](README.md)
 
 ## Activité GitHub
 
